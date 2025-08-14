@@ -44,17 +44,20 @@ export function Header() {
             <Link href="/" className="text-white hover:text-secondary font-medium transition-colors">
               Home
             </Link>
-            <Link href="/about" className="text-white hover:text-secondary font-medium transition-colors">
+            <Link href="/about-us" className="text-white hover:text-secondary font-medium transition-colors">
               About Us
             </Link>
-            <Link href="/programs" className="text-white hover:text-secondary font-medium transition-colors">
-              Our Programs
+            <Link href="/courses" className="text-white hover:text-secondary font-medium transition-colors">
+              Our Courses
             </Link>
             <Link href="/contact" className="text-white hover:text-secondary font-medium transition-colors">
               Contact Us
             </Link>
-            <Link href="/trainers" className="text-white hover:text-secondary font-medium transition-colors">
+            <Link href="/our-trainers" className="text-white hover:text-secondary font-medium transition-colors">
               Our Trainers
+            </Link>
+            <Link href="/venues" className="text-white hover:text-secondary font-medium transition-colors">
+              Venues
             </Link>
           </nav>
 
@@ -99,17 +102,20 @@ export function Header() {
                     <Link href="/" className="text-white hover:text-secondary font-medium transition-colors">
                       Home
                     </Link>
-                    <Link href="/about" className="text-white hover:text-secondary font-medium transition-colors">
+                    <Link href="/about-us" className="text-white hover:text-secondary font-medium transition-colors">
                       About Us
                     </Link>
-                    <Link href="/programs" className="text-white hover:text-secondary font-medium transition-colors">
-                      Our Programs
+                    <Link href="/courses" className="text-white hover:text-secondary font-medium transition-colors">
+                      Our Courses
                     </Link>
                     <Link href="/contact" className="text-white hover:text-secondary font-medium transition-colors">
                       Contact Us
                     </Link>
-                    <Link href="/trainers" className="text-white hover:text-secondary font-medium transition-colors">
+                    <Link href="/our-trainers" className="text-white hover:text-secondary font-medium transition-colors">
                       Our Trainers
+                    </Link>
+                    <Link href="/venues" className="text-white hover:text-secondary font-medium transition-colors">
+                      Venues
                     </Link>
                   </nav>
                   <div className="mt-auto space-y-4">

@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react"
 export function AboutSection() {
   const benefits = [
     "Customized training solutions for clients",
-    "Comprehensive, bespoke training programs",
+    "Comprehensive, bespoke training courses",
     "Expert trainers with industry experience",
     "Interactive and practical learning approach",
     "Focus on clear learning outcomes",
@@ -22,7 +22,7 @@ export function AboutSection() {
             <p className="text-white/80 mb-6">
               All public courses at Euro Training can be designed and delivered exclusively for a client organization,
               or alternatively we can create Customized Training solutions for clients wanting a comprehensive, bespoke
-              training programme. To view a selection of courses that can be customized by Euro Training.
+              training courses. To view a selection of courses that can be customized by Euro Training.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
@@ -48,7 +48,7 @@ export function AboutSection() {
             <div className="absolute bottom-0 left-0 right-0 p-8">
               <div className="bg-black/80 p-6 rounded-lg">
                 <p className="text-white font-medium text-lg mb-2">
-                  "Euro Training has transformed our team's capabilities and performance. The customized program
+                  "Euro Training has transformed our team's capabilities and performance. The customized course
                   addressed our specific needs perfectly."
                 </p>
                 <p className="text-secondary">— Sarah Johnson, HR Director at Global Solutions Inc.</p>

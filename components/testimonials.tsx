@@ -17,7 +17,7 @@ export function Testimonials() {
       image:
         "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
       quote:
-        "The leadership program exceeded all my expectations. The trainers were exceptional, bringing real-world experience and practical insights that our team could immediately apply.",
+        "The leadership course exceeded all my expectations. The trainers were exceptional, bringing real-world experience and practical insights that our team could immediately apply.",
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ export function Testimonials() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">What Our Clients Say</h2>
           <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Hear from professionals who have experienced the transformative impact of our training programs.
+            Hear from professionals who have experienced the transformative impact of our training courses.
           </p>
         </div>
 
