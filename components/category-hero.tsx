@@ -1,31 +1,24 @@
 "use client"
 
-import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ChevronRight, MapPin, Globe, Building } from "lucide-react"
+import { ChevronLeft } from "lucide-react"
 import Link from "next/link"
 
-export function VenuesHero() {
-  const [isVisible, setIsVisible] = useState(false)
+import { Category } from "@/lib/data"
 
-  useEffect(() => {
-    setIsVisible(true)
-  }, [])
+interface CategoryHeroProps {
+  category: Category
+}
 
-  const stats = [
-    { icon: MapPin, value: "25+", label: "Global Venues" },
-    { icon: Globe, value: "15+", label: "Countries" },
-    { icon: Building, value: "50+", label: "Training Centers" },
-  ]
-
+export function CategoryHero({ category }: CategoryHeroProps) {
   return (
     <section className="relative h-[60vh] w-full overflow-hidden bg-[#16335c] pt-16">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2126&q=80"
-          alt="Professional training venues"
+          src={category.image}
+          alt={category.title}
           fill
           className="object-cover"
           priority
@@ -38,26 +31,23 @@ export function VenuesHero() {
         <div className="max-w-4xl animate-fade-in">
           {/* Back Button */}
           <div className="mb-8">
-            <Link href="/">
+            <Link href="/categories">
               <Button variant="ghost" className="text-white hover:bg-white/10 p-3">
-                <MapPin className="h-5 w-5 mr-3" />
-                Back to Home
+                <ChevronLeft className="h-5 w-5 mr-3" />
+                Back to Categories
               </Button>
             </Link>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight animate-slide-up">
-            Our Training Venues
+            {category.title}
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-10 max-w-3xl animate-slide-up animation-delay-200">
-            Discover our world-class training facilities and conference centers strategically located 
-            across the globe to provide convenient access to professional development opportunities.
+            {category.description}
           </p>
-          
-          {/* Stats */}
           <div className="flex items-center text-white/80 animate-slide-up animation-delay-400">
             <span className="text-lg md:text-xl font-medium">
-              25+ venues available worldwide
+              {category.courseCount} courses available
             </span>
           </div>
         </div>

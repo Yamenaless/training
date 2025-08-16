@@ -13,13 +13,13 @@ export function AboutSection() {
   ]
 
   return (
-    <section className="py-20 bg-[#001a4f]">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">About Euro Training</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#16335c] mb-4">About Euro Training</h2>
             <div className="w-16 h-1 bg-secondary mb-6"></div>
-            <p className="text-white/80 mb-6">
+            <p className="text-gray-600 mb-6">
               All public courses at Euro Training can be designed and delivered exclusively for a client organization,
               or alternatively we can create Customized Training solutions for clients wanting a comprehensive, bespoke
               training courses. To view a selection of courses that can be customized by Euro Training.
@@ -29,7 +29,7 @@ export function AboutSection() {
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-secondary mr-2 mt-0.5 flex-shrink-0" />
-                  <span className="text-white/80">{benefit}</span>
+                  <span className="text-gray-600">{benefit}</span>
                 </div>
               ))}
             </div>
@@ -44,9 +44,9 @@ export function AboutSection() {
               fill
               className="object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#002677] to-transparent opacity-60"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#16335c] to-transparent opacity-60"></div>
             <div className="absolute bottom-0 left-0 right-0 p-8">
-              <div className="bg-black/80 p-6 rounded-lg">
+              <div className="bg-slate-900/90 p-6 rounded-lg">
                 <p className="text-white font-medium text-lg mb-2">
                   "Euro Training has transformed our team's capabilities and performance. The customized course
                   addressed our specific needs perfectly."

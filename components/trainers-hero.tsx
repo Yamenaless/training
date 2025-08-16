@@ -19,7 +19,7 @@ export function TrainersHero() {
   ]
 
   return (
-    <section className="relative min-h-screen w-full overflow-hidden bg-[#002677] pt-28">
+    <section className="relative min-h-screen w-full overflow-hidden bg-[#16335c] pt-28">
       {/* Background Image with Enhanced Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -30,7 +30,7 @@ export function TrainersHero() {
           priority
         />
         {/* Enhanced gradient overlay matching home page style */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#002677] via-[#002677cc] to-[#00267799]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#16335c] via-[#16335c] to-[#16335c99]"></div>
         
         {/* Subtle pattern overlay for depth */}
         <div className="absolute inset-0 opacity-5">
@@ -61,7 +61,7 @@ export function TrainersHero() {
 
           {/* Enhanced Buttons - Matching home page style */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
-            <Button className="bg-white text-[#002677] hover:bg-secondary hover:text-white text-lg px-8 py-6 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
+            <Button className="bg-white text-[#16335c] hover:bg-secondary hover:text-white text-lg px-8 py-6 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl">
               View All Trainers
               <ChevronRight className="ml-2 h-5 w-5" />
             </Button>

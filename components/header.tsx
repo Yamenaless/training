@@ -47,6 +47,9 @@ export function Header() {
             <Link href="/about-us" className="text-white hover:text-secondary font-medium transition-colors">
               About Us
             </Link>
+            <Link href="/categories" className="text-white hover:text-secondary font-medium transition-colors">
+              Categories
+            </Link>
             <Link href="/courses" className="text-white hover:text-secondary font-medium transition-colors">
               Our Courses
             </Link>
@@ -104,6 +107,9 @@ export function Header() {
                     </Link>
                     <Link href="/about-us" className="text-white hover:text-secondary font-medium transition-colors">
                       About Us
+                    </Link>
+                    <Link href="/categories" className="text-white hover:text-secondary font-medium transition-colors">
+                      Categories
                     </Link>
                     <Link href="/courses" className="text-white hover:text-secondary font-medium transition-colors">
                       Our Courses

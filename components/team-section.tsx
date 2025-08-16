@@ -44,19 +44,19 @@ export function TeamSection() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#002677] mb-4">Our Leadership Team</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#16335c] mb-4">Our Leadership Team</h2>
           <div className="w-16 h-1 bg-secondary mx-auto mb-6"></div>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Meet the experienced professionals who lead Euro Training's mission to deliver world-class 
-            professional development solutions. Our leadership team brings decades of combined expertise 
-            in training, business, and international operations.
-          </p>
+                                             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+             Meet the experienced professionals who lead Euro Training's mission to deliver world-class 
+             professional development solutions. Our leadership team brings decades of combined expertise 
+             in training, business, and international operations.
+           </p>
         </div>
 
         {/* Team Members */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {teamMembers.map((member, index) => (
-            <div key={index} className="bg-gray-50 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 shadow-lg">
               <div className="relative h-64">
                 <Image
                   src={member.image}
@@ -66,15 +66,15 @@ export function TeamSection() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-[#002677] mb-2">{member.name}</h3>
+                <h3 className="text-xl font-semibold text-[#16335c] mb-2">{member.name}</h3>
                 <p className="text-secondary font-medium mb-3">{member.position}</p>
-                <p className="text-gray-600 mb-4 leading-relaxed">{member.bio}</p>
+                                  <p className="text-gray-600 mb-4 leading-relaxed">{member.bio}</p>
                 
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-[#002677] mb-2">Areas of Expertise:</h4>
+                  <h4 className="text-sm font-semibold text-[#16335c] mb-2">Areas of Expertise:</h4>
                   <div className="flex flex-wrap gap-2">
                     {member.expertise.map((skill, skillIndex) => (
-                      <span key={skillIndex} className="px-3 py-1 bg-[#002677]/10 text-[#002677] text-sm rounded-full">
+                                              <span key={skillIndex} className="px-3 py-1 bg-[#16335c]/10 text-[#16335c] text-sm rounded-full">
                         {skill}
                       </span>
                     ))}
@@ -97,7 +97,7 @@ export function TeamSection() {
         </div>
 
         {/* Team Stats */}
-        <div className="bg-[#002677] rounded-lg p-8 md:p-12">
+        <div className="bg-[#16335c] rounded-lg p-8 md:p-12">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Our Team at a Glance</h3>
             <p className="text-white/80 text-lg">
@@ -122,7 +122,7 @@ export function TeamSection() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6">
+                      <p className="text-gray-600 mb-6">
             Want to learn more about our team and how we can help your organization?
           </p>
           <Button className="bg-secondary text-black hover:bg-white">

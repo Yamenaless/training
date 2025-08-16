@@ -1,12 +1,12 @@
-import Link from "next/link"
+"use client"
+
 import Image from "next/image"
+import Link from "next/link"
 import { Play, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { getAllCategories } from "@/lib/data"
 
-export function CourseCategories() {
-  const categories = getAllCategories()
-
+export function CategoriesGrid() {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
@@ -22,10 +22,10 @@ export function CourseCategories() {
 
         {/* Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {categories.map((category) => (
+          {getAllCategories().map((category) => (
             <div
               key={category.id}
-              className="h-full bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group flex flex-col"
+              className="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 group"
             >
               {/* Category Image */}
               <div className="relative h-48 overflow-hidden">
@@ -44,11 +44,11 @@ export function CourseCategories() {
               </div>
 
               {/* Category Content */}
-              <div className="p-6 flex-1 flex flex-col">
+              <div className="p-6">
                 <h3 className="text-xl font-bold text-[#16335c] mb-3 group-hover:text-secondary transition-colors duration-300">
                   {category.title}
                 </h3>
-                <p className="text-gray-600 mb-4 line-clamp-2 flex-1">
+                <p className="text-gray-600 mb-4 line-clamp-2">
                   {category.description}
                 </p>
                 
@@ -59,7 +59,7 @@ export function CourseCategories() {
                 </div>
 
                 {/* Action Button */}
-                <Link href={`/categories/${category.id}`} className="mt-auto">
+                <Link href={`/categories/${category.id}`}>
                   <Button className="w-full bg-[#ebb207] hover:bg-[#d4a006] text-white transition-all duration-300">
                     Explore Category
                     <Play className="ml-2 h-4 w-4" />
@@ -68,6 +68,18 @@ export function CourseCategories() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Call to Action */}
+        <div className="text-center mt-16">
+                     <p className="text-lg text-gray-600 mb-6">
+             Can't find what you're looking for? Contact our team for custom training solutions.
+           </p>
+          <Link href="/contact">
+            <Button variant="outline" className="border-secondary text-secondary hover:bg-secondary hover:text-white">
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

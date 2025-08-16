@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "leadership",
+      "title": "Leadership & Management",
+      "description": "Develop essential leadership skills and management competencies for organizational success",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "courseCount": 12
+    },
+    {
+      "id": "business-strategy",
+      "title": "Business Strategy",
+      "description": "Strategic planning and execution for sustainable business growth and competitive advantage",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "courseCount": 8
+    },
+    {
+      "id": "project-management",
+      "title": "Project Management",
+      "description": "Master project methodologies and best practices to deliver successful outcomes",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "courseCount": 10
+    },
+    {
+      "id": "human-resources",
+      "title": "Human Resources",
+      "description": "Transform your HR function with strategic approaches to talent development and management",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "courseCount": 9
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Digital Marketing & Innovation",
+      "description": "Master modern digital strategies and drive business growth through innovation",
+      "image": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "courseCount": 7
+    },
+    {
+      "id": "finance-accounting",
+      "title": "Finance & Accounting",
+      "description": "Master financial strategies and accounting techniques for sustainable business growth",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "courseCount": 11
+    }
+  ]
+}

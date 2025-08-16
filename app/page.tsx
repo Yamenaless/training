@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+import { CombinedNavbar } from "@/components/combined-navbar"
 import { Hero } from "@/components/hero"
 import { CourseCategories } from "@/components/course-categories"
 import { CourseFinder } from "@/components/course-finder"
@@ -13,7 +13,7 @@ import { CallToAction } from "@/components/call-to-action"
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
-      <Header />
+      <CombinedNavbar />
       <Hero />
       <CourseFinder />
       <CourseCategories />

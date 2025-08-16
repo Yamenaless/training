@@ -48,7 +48,7 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-slate-900">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">What Our Clients Say</h2>
@@ -59,10 +59,10 @@ export function Testimonials() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <Card className="bg-[#001a4f] border-none overflow-hidden">
-            <CardContent className="p-0">
-              <div className="grid md:grid-cols-5 gap-0">
-                <div className="md:col-span-2 relative h-full min-h-[300px] md:min-h-full">
+          <Card className="h-[500px] bg-gray-900 border border-gray-700 overflow-hidden shadow-xl">
+            <CardContent className="p-0 h-full">
+              <div className="grid md:grid-cols-5 gap-0 h-full">
+                <div className="md:col-span-2 relative h-full">
                   <Image
                     src={testimonials[currentIndex].image || "/placeholder.svg"}
                     alt={testimonials[currentIndex].name}
@@ -70,11 +70,11 @@ export function Testimonials() {
                     className="object-cover"
                   />
                 </div>
-                <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
+                <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center h-full">
                   <Quote className="h-12 w-12 text-secondary mb-6 opacity-50" />
-                  <p className="text-white text-lg md:text-xl mb-8 italic">{testimonials[currentIndex].quote}</p>
-                  <div>
-                    <h4 className="text-white font-bold text-lg">{testimonials[currentIndex].name}</h4>
+                  <p className="text-gray-200 text-lg md:text-xl mb-8 italic flex-1">{testimonials[currentIndex].quote}</p>
+                  <div className="mt-auto">
+                    <h4 className="text-gray-100 font-bold text-lg">{testimonials[currentIndex].name}</h4>
                     <p className="text-secondary">{testimonials[currentIndex].position}</p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export function Testimonials() {
             <Button
               variant="outline"
               size="icon"
-              className="rounded-full border-white/20 text-white hover:bg-secondary hover:text-black"
+              className="rounded-full border-white/20 text-black hover:bg-secondary hover:text-black"
               onClick={prevTestimonial}
             >
               <ChevronLeft className="h-5 w-5" />
@@ -94,7 +94,7 @@ export function Testimonials() {
             <Button
               variant="outline"
               size="icon"
-              className="rounded-full border-white/20 text-white hover:bg-secondary hover:text-black"
+              className="rounded-full border-white/20 text-black hover:bg-secondary hover:text-black"
               onClick={nextTestimonial}
             >
               <ChevronRight className="h-5 w-5" />

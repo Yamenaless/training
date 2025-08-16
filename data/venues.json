@@ -1,0 +1,62 @@
+[
+  {
+    "id": "london",
+    "name": "London, UK",
+    "country": "United Kingdom",
+    "description": "Central London training facility in the heart of the business district"
+  },
+  {
+    "id": "paris",
+    "name": "Paris, France",
+    "country": "France",
+    "description": "Modern training center in the business district of Paris"
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai, UAE",
+    "country": "United Arab Emirates",
+    "description": "Luxury training facility in Dubai Business Bay"
+  },
+  {
+    "id": "new-york",
+    "name": "New York, USA",
+    "country": "United States",
+    "description": "Manhattan training center with state-of-the-art facilities"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "description": "Marina Bay training facility with panoramic city views"
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo, Japan",
+    "country": "Japan",
+    "description": "Shinjuku training center in the heart of Tokyo"
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney, Australia",
+    "country": "Australia",
+    "description": "Harbor-side training facility with modern amenities"
+  },
+  {
+    "id": "toronto",
+    "name": "Toronto, Canada",
+    "country": "Canada",
+    "description": "Downtown Toronto training center in the financial district"
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin, Germany",
+    "country": "Germany",
+    "description": "Contemporary training facility in Berlin Mitte"
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam, Netherlands",
+    "country": "Netherlands",
+    "description": "Canal-side training center in the business district"
+  }
+]

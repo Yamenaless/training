@@ -1,0 +1,130 @@
+{
+  "courses": [
+    {
+      "id": "leadership-strategy",
+      "title": "Leadership Strategy & Coaching for Emerging Leaders",
+      "code": "MATH6478",
+      "duration": "1 week",
+      "category": "leadership",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Develop essential leadership skills and strategic thinking for emerging leaders"
+    },
+    {
+      "id": "stakeholder-management",
+      "title": "Comprehensive Stakeholder Management Masterclass",
+      "code": "MAST3852",
+      "duration": "1 week",
+      "category": "leadership",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "description": "Master the art of managing stakeholders effectively in complex projects"
+    },
+    {
+      "id": "advanced-negotiation",
+      "title": "Mastering Advanced Negotiation: Strategies for Business Leaders",
+      "code": "MAAD1968",
+      "duration": "1 week",
+      "category": "leadership",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Learn advanced negotiation techniques and strategies for business success"
+    },
+    {
+      "id": "supervisory-leadership",
+      "title": "Essential Supervisory & Leadership Skills Training",
+      "code": "MABU7964",
+      "duration": "1 week",
+      "category": "leadership",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Build essential supervisory and leadership skills for team management"
+    },
+    {
+      "id": "crisis-management",
+      "title": "Crisis Management & Leadership Under Pressure",
+      "code": "MACR2283",
+      "duration": "1 week",
+      "category": "leadership",
+      "image": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Develop crisis management skills and lead effectively under pressure"
+    },
+    {
+      "id": "corporate-risk-management",
+      "title": "Strategic Corporate Risk & Crisis Management",
+      "code": "MACO4202",
+      "duration": "1 week",
+      "category": "business-strategy",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Master strategic risk management and crisis response in corporate environments"
+    },
+    {
+      "id": "goal-setting",
+      "title": "Effective Goal Setting, Planning & Decision-Making",
+      "code": "MAG09874",
+      "duration": "1 week",
+      "category": "business-strategy",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "description": "Learn effective goal setting, strategic planning, and decision-making frameworks"
+    },
+    {
+      "id": "creative-problem-solving",
+      "title": "Creative Problem Solving & Innovative Thinking",
+      "code": "MAP05632",
+      "duration": "1 week",
+      "category": "business-strategy",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Develop creative problem-solving skills and innovative thinking approaches"
+    },
+    {
+      "id": "project-methodology",
+      "title": "Project Management Methodologies & Best Practices",
+      "code": "MAPM1234",
+      "duration": "1 week",
+      "category": "project-management",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Master project management methodologies and industry best practices"
+    },
+    {
+      "id": "agile-project-management",
+      "title": "Agile Project Management & Scrum Framework",
+      "code": "MAPM5678",
+      "duration": "1 week",
+      "category": "project-management",
+      "image": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Learn Agile methodologies and Scrum framework for effective project delivery"
+    },
+    {
+      "id": "talent-development",
+      "title": "Strategic Talent Development & Management",
+      "code": "MAHR9012",
+      "duration": "1 week",
+      "category": "human-resources",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Develop strategic approaches to talent development and HR management"
+    },
+    {
+      "id": "digital-marketing-strategy",
+      "title": "Digital Marketing Strategy & Implementation",
+      "code": "MADM3456",
+      "duration": "1 week",
+      "category": "digital-marketing",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "description": "Master digital marketing strategies and implementation techniques"
+    },
+    {
+      "id": "financial-analysis",
+      "title": "Financial Analysis & Strategic Decision Making",
+      "code": "MAFA7890",
+      "duration": "1 week",
+      "category": "finance-accounting",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Learn financial analysis techniques for strategic business decision making"
+    },
+    {
+      "id": "accounting-standards",
+      "title": "International Accounting Standards & Compliance",
+      "code": "MAAS2345",
+      "duration": "1 week",
+      "category": "finance-accounting",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "description": "Master international accounting standards and compliance requirements"
+    }
+  ]
+}

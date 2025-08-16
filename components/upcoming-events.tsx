@@ -39,7 +39,7 @@ export function UpcomingEvents() {
   ]
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-slate-900">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Upcoming Training Events</h2>
@@ -51,8 +51,8 @@ export function UpcomingEvents() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {events.map((event) => (
-            <Card key={event.id} className="bg-[#001a4f] border-none overflow-hidden course-card">
-              <div className="bg-[#002677] p-4">
+            <Card key={event.id} className="h-full bg-gray-900 border border-gray-700 overflow-hidden course-card shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="bg-[#16335c] p-4">
                 <div className="inline-block bg-secondary text-black px-3 py-1 text-sm font-medium rounded mb-2">
                   {event.category}
                 </div>
@@ -62,15 +62,15 @@ export function UpcomingEvents() {
                 <div className="space-y-4 mb-6">
                   <div className="flex items-start">
                     <CalendarDays className="h-5 w-5 text-secondary mr-3 flex-shrink-0 mt-0.5" />
-                    <span className="text-white">{event.date}</span>
+                    <span className="text-gray-200">{event.date}</span>
                   </div>
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 text-secondary mr-3 flex-shrink-0 mt-0.5" />
-                    <span className="text-white">{event.location}</span>
+                    <span className="text-gray-200">{event.location}</span>
                   </div>
                   <div className="flex items-start">
                     <Clock className="h-5 w-5 text-secondary mr-3 flex-shrink-0 mt-0.5" />
-                    <span className="text-white">{event.time}</span>
+                    <span className="text-gray-200">{event.time}</span>
                   </div>
                 </div>
                 <Button className="w-full bg-secondary text-black hover:bg-white">Register Now</Button>

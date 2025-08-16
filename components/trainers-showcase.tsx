@@ -40,13 +40,13 @@ export function TrainersShowcase() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-b from-[#001a4f] to-black">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Meet Our Expert Trainers</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#16335c] mb-4">Meet Our Expert Trainers</h2>
             <div className="w-16 h-1 bg-secondary mb-4"></div>
-            <p className="text-white/70 max-w-2xl">
+            <p className="text-gray-600 max-w-2xl">
               Learn from industry leaders with extensive real-world experience and a passion for developing others.
             </p>
           </div>
@@ -58,7 +58,7 @@ export function TrainersShowcase() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {trainers.map((trainer) => (
-            <Card key={trainer.id} className="bg-black border border-white/10 overflow-hidden course-card">
+            <Card key={trainer.id} className="bg-white border border-gray-200 overflow-hidden course-card shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-72">
                 <Image src={trainer.image || "/placeholder.svg"} alt={trainer.name} fill className="object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
@@ -68,8 +68,8 @@ export function TrainersShowcase() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <p className="text-white/70 text-sm mb-4">{trainer.bio}</p>
-                <Link href={`/trainers/${trainer.id}`} className="text-secondary hover:text-white flex items-center">
+                <p className="text-gray-600 text-sm mb-4">{trainer.bio}</p>
+                <Link href={`/trainers/${trainer.id}`} className="text-secondary hover:text-[#d4a006] flex items-center">
                   View Profile
                   <ChevronRight className="ml-1 h-4 w-4" />
                 </Link>

@@ -98,18 +98,18 @@ export function VenuesGrid() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-[#001a4f]">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Training Venues</h2>
-            <div className="w-16 h-1 bg-secondary mb-4"></div>
-            <p className="text-white/70 max-w-2xl">
-              Our strategically located training venues offer world-class facilities, cutting-edge technology, 
-              and exceptional hospitality services to ensure an optimal learning environment for all participants.
-            </p>
+                         <h2 className="text-3xl md:text-4xl font-bold text-[#16335c] mb-4">Training Venues</h2>
+             <div className="w-16 h-1 bg-secondary mb-4"></div>
+             <p className="text-gray-600 max-w-2xl">
+               Our strategically located training venues offer world-class facilities, cutting-edge technology, 
+               and exceptional hospitality services to ensure an optimal learning environment for all participants.
+             </p>
           </div>
-          <Link href="/contact" className="text-secondary hover:text-white mt-4 md:mt-0 flex items-center">
+                     <Link href="/contact" className="text-secondary hover:text-[#d4a006] mt-4 md:mt-0 flex items-center">
             Contact Us
             <ChevronRight className="ml-1 h-4 w-4" />
           </Link>
@@ -117,7 +117,7 @@ export function VenuesGrid() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {venues.map((venue) => (
-            <Card key={venue.id} className="bg-black border border-white/10 overflow-hidden course-card group">
+            <Card key={venue.id} className="bg-white border border-gray-200 overflow-hidden course-card group shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-48">
                 <Image 
                   src={venue.image} 
@@ -136,33 +136,33 @@ export function VenuesGrid() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-secondary transition-colors">
-                  {venue.title}
-                </h3>
-                <p className="text-white/70 text-sm mb-4 line-clamp-3">{venue.description}</p>
+                                 <h3 className="text-xl font-bold text-[#16335c] mb-3 line-clamp-2 group-hover:text-secondary transition-colors">
+                   {venue.title}
+                 </h3>
+                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">{venue.description}</p>
                 
                 {/* Venue Details */}
                 <div className="space-y-2 mb-4">
-                  <div className="flex items-center text-white/60 text-sm">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    {venue.city}, {venue.country}
-                  </div>
-                  <div className="flex items-center text-white/60 text-sm">
-                    <Users className="h-4 w-4 mr-2" />
-                    {venue.capacity}
-                  </div>
+                                     <div className="flex items-center text-gray-500 text-sm">
+                     <MapPin className="h-4 w-4 mr-2" />
+                     {venue.city}, {venue.country}
+                   </div>
+                   <div className="flex items-center text-gray-500 text-sm">
+                     <Users className="h-4 w-4 mr-2" />
+                     {venue.capacity}
+                   </div>
                 </div>
 
                 {/* Amenities */}
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-white/80 mb-2">Amenities:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {venue.amenities.map((amenity, index) => (
-                      <span key={index} className="px-2 py-1 bg-white/10 text-white/70 text-xs rounded">
-                        {amenity}
-                      </span>
-                    ))}
-                  </div>
+                                   <h4 className="text-sm font-semibold text-[#16335c] mb-2">Amenities:</h4>
+                 <div className="flex flex-wrap gap-2">
+                   {venue.amenities.map((amenity, index) => (
+                     <span key={index} className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded">
+                       {amenity}
+                     </span>
+                   ))}
+                 </div>
                 </div>
 
                 <div className="flex justify-between items-center">

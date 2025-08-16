@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+import { CombinedNavbar } from "@/components/combined-navbar"
 import { Footer } from "@/components/footer"
 import { AboutHero } from "@/components/about-hero"
 import { MissionValues } from "@/components/mission-values"
@@ -9,8 +9,8 @@ import { CallToAction } from "@/components/call-to-action"
 
 export default function AboutUsPage() {
   return (
-    <main className="min-h-screen bg-black flex flex-col">
-      <Header />
+    <main className="min-h-screen bg-white flex flex-col">
+      <CombinedNavbar />
       <AboutHero />
       <CompanyOverview />
       <MissionValues />
